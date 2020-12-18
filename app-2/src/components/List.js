@@ -6,8 +6,6 @@ const List = () => {
     const [facts, updateFacts] = useState([])
     const url = 'https://cat-fact.herokuapp.com/facts'
 
-
-
     useEffect(() => {
         axios
             .get(`${url}`)
